@@ -22,7 +22,26 @@ Scripts Transact-SQL personalizados para la gestión diaria de bases de datos op
 | `ScriptDependenciasTablas.sql` | Obtencion de dependencias de tablas. |
 | `ScriptDevolverMensaje.sql` | Tratamiento de mensaje de SP con parametro output. |
 | `ScriptFuncionesUtiles.sql` | Funciones utiles a incorporar en scripts . |
-
-
-
-
+| `ScriptGeneraTXT.sql` | Generacion y compresion de archivo de texto plano con herramienta .tar.gz. |
+| `ScriptListaClavesYsusCampos.sql` | Lista las claves primarias y sus respectivos campos. |
+| `ScriptListaDTS.sql` | Lista de los DTS del servidor. |
+| `ScriptListaDeTablas.sql` | Lista todas las tablas de la base de datos actual. |
+| `ScriptListaDeTablasYCampos.sql` | Lista todas las tablas y todos los campos existentes en la base de datos. |
+| `ScriptListaFKs.sql` | Lista de FKs de todas las tablas. |
+| `ScriptListaFuncionesDeUsuario.sql` |  Script que lista las funciones definidas por el usuario. |
+| `ScriptListaIndices.sql` | Script que lista todos los indices de todas las tablas. |
+| `ScriptListaRolesUsuarios.sql` | Lista los roles de todos los usuarios de la base de datos. |
+| `ScriptListaStores.sql` | Script que lista todas las stored procedures. |
+| `ScriptListaTriggers.sql` |  Lista de Triggers creados en la base de datos. |
+| `ScriptManejoError.sql` | Plantilla de script para el manejo de errores. |
+| `ScriptMultipleUpdOneRow.sql` | Plantilla de insert en una sola linea. |
+| `ScriptObtengoMenuesFW.sql` | Obtencion de menu fwk php. |
+| `ScriptObtieneCantRegistrosArchivo.sql` | Script de ejemplo que permite obtener la cantidad de registros de un archivo	. |
+| `ScriptPIVOT.sql` | Script ejemplo para pivotear una tabla. |
+| `ScriptPermisosSP.sql` | Script que despliega los permisos (GRANTS) de los objetos que especifico ('P' = Stored Procedure). |
+| `ScriptPlantillaEjecucionProduccion.sql` | Plantilla para realizar ejecucion en produccion por Ticket urgente. |
+| `ScriptQueNoEjecuteSegunServidor.sql` | Script para evitar ejecucion en ambiente incorrecto. |
+| `ScriptReduceLogTransacciones.sql` | Script que limpia el log de transacciones de una base de datps. |
+| `ScriptReportingServicesEstadistica.sql` | Reporte de estadisticas de Reporting Services. |
+| `ScriptSplitDoble.sql` | Script para utilizar funcion de split. |
+| `ScriptUsoArchivoFormato.sql` | Plantilla para crear archivo de formato .fmt y .dat. |
