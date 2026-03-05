@@ -1,0 +1,16 @@
+--PASOS PARA GENERAR LOTES DE PRUEBA EN AMBIENTE DE TESTEO
+
+--1-Ejecutar siguiente script
+  UPDATE DL  
+     SET DL.OPE_CODIGO = 10
+    FROM DETALLE_LOTE DL
+   WHERE DL.EST_CODIGO <> 31
+
+  UPDATE DL  
+     SET DL.EST_CODIGO = 31
+    FROM DETALLE_LOTE DL
+   WHERE DL.EST_CODIGO <> 31
+
+  UPDATE PARAMETROS SET PMT_ULT_GENE_LOTE = '2018-04-21 00:00:00.000' --Fecha indicada por usuaruio
+
+--2- Ejecutar job "(PDC_Auto)-(SAP 4.6) SP_Generacion_Lotes_(15:00_Hs)"
