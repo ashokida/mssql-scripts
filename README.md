@@ -21,8 +21,8 @@ Scripts Transact-SQL personalizados para la gestión diaria de bases de datos op
 | `ScriptDependencias.sql` | Obtencion de FKs. |
 | `ScriptDependenciasTablas.sql` | Obtencion de dependencias de tablas. |
 | `ScriptDevolverMensaje.sql` | Tratamiento de mensaje de SP con parametro output. |
-| `` |. |
-| `` |. |
+| `ScriptFuncionesUtiles.sql` | Funciones utiles a incorporar en scripts . |
+
 
 
 
