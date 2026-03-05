@@ -3,7 +3,7 @@ Scripts Transact-SQL personalizados para la gestión diaria de bases de datos op
 
 | Archivo | Función Principal |
 | :--- | :--- |
-| `01_GeneradorScript-Framework_Menues.sql` (01_GeneradorScript-Framework_Menues.sql) | Genera script de inserts para tablas utilizadas por web PHP (Seccion/Menu/Controlador) . |
+| `01_GeneradorScript-Framework_Menues.sql` (mssql-scripts/01_GeneradorScript-Framework_Menues.sql) | Genera script de inserts para tablas utilizadas por web PHP (Seccion/Menu/Controlador) . |
 | `02_GeneradorScript-Framework_Perfiles.sql` | Genera script de inserts para los perfiles de usuarios. |
 | `2330013_ECOM_GeneraScriptInsertCAN.sql` | Genera archivo a partir de volcado de datos. |
 | `P_ROLES_PERMISOS.sql` | Obtiene roles y permisos de usuarios de base de datos. |
