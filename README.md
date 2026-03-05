@@ -16,11 +16,11 @@ Scripts Transact-SQL personalizados para la gestión diaria de bases de datos op
 | `ScriptBuscaTextoSP_III.sql` | Version 3 para buscar un texto especifico en todos los Stored Proecedures. |
 | `ScriptBuscaTextoSP_IV.sql` | Version 4 para buscar un texto especifico en todos los Stored Proecedures. |
 | `ScriptCargaArchivoEnTabla.sql` | A partir de un archivo de texto plano se obtienen los datos para insertar en una tabla. |
-| `` |. |
-| `` |. |
-| `` |. |
-| `` |. |
-| `` |. |
+| `ScriptCreaRoles.sql` | Creacion de Roles y asignacion de rol a usuario MSSQL. |
+| `ScriptCursores.sql` | Script para generacion correcta de cursores. |
+| `ScriptDependencias.sql` | Obtencion de FKs. |
+| `ScriptDependenciasTablas.sql` | Obtencion de dependencias de tablas. |
+| `ScriptDevolverMensaje.sql` | Tratamiento de mensaje de SP con parametro output. |
 | `` |. |
 | `` |. |
 
