@@ -9,7 +9,7 @@ Scripts Transact-SQL personalizados para la gestión diaria de bases de datos op
 | [P_ROLES_PERMISOS.sql](./P_ROLES_PERMISOS.sql) | Obtiene roles y permisos de usuarios de base de datos. |
 | [P_S_ROLES.sql](./P_S_ROLES.sql) | Obtiene roles de base de datos. |
 | [SP_LOG.sql](./SP_LOG.sql) | Plantilla para Stored Procedure con manejo de logs y errores. |
-| [ScriptBuscaCampoEnTodasTablas.sql](./ScriptBuscaCampoEnTodasTablas.sql) | Busca campo especifico en todas las tablas de la base de datos actual. |
+| [ScriptBuscaCampoEnTodasTablas.sql](./busqueda-objetos-md/ScriptBuscaCampoEnTodasTablas.sql) | Busca campo especifico en todas las tablas de la base de datos actual. |
 | [ScriptBuscaTextoEnTablas.sql](./ScriptBuscaTextoEnTablas.sql) | Busca un texto especifico en todas las tablas de la base de datos actual. |
 | [ScriptBuscaTextoSP_I.sql](./ScriptBuscaTextoSP_I.sql) | Version 1 para buscar un texto especifico en todos los Stored Proecedures. |
 | [ScriptBuscaTextoSP_II.sql](./ScriptBuscaTextoSP_II.sql) | Version 2 para buscar un texto especifico en todos los Stored Proecedures. |
