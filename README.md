@@ -68,7 +68,7 @@ Ruta: `./manipulaciondatos-integracion/`
 | [01_GeneradorScript-Framework_Menues.sql](./manipulaciondatos-integracion/01_GeneradorScript-Framework_Menues.sql) | Genera script de inserts para tablas utilizadas por web PHP (Seccion/Menu/Controlador) . |
 | [ScriptSplitDoble.sql](./manipulaciondatos-integracion/ScriptSplitDoble.sql) | Script para utilizar funcion de split. |
 
-#### 📋 6. Diccionario de Datos y Listado (./diccionariodatos-listado/)
+#### 📋 6. Diccionario de Datos y Listado [(./diccionariodatos-listado/)](./diccionariodatos-listado/)
 
 | Archivo | Función Principal |
 | :--- | :--- |
