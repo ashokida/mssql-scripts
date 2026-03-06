@@ -1,47 +1,78 @@
+# 🛠️ SQL Server Management Scripts
+
+Colección de scripts Transact-SQL personalizados para la administración, auditoría y optimización de bases de datos.
+
+---
+
 ### 📂 Índice de Scripts del Repositorio
-Scripts Transact-SQL personalizados para la gestión diaria de bases de datos operativas
+
+#### 🔍 1. Búsqueda, Auditoría y Administración (DBA)
+Ruta: `./busqueda-objetos-bd/`  
+*Incluye herramientas de localización de objetos y tareas de mantenimiento del servidor.*
 
 | Archivo | Función Principal |
 | :--- | :--- |
-| [01_GeneradorScript-Framework_Menues.sql](./01_GeneradorScript-Framework_Menues.sql) | Genera script de inserts para tablas utilizadas por web PHP (Seccion/Menu/Controlador). |
-| [02_GeneradorScript-Framework_Perfiles.sql](./02_GeneradorScript-Framework_Perfiles.sql) | Genera script de inserts para los perfiles de usuarios. |
-| [2330013_ECOM_GeneraScriptInsertCAN.sql](./2330013_ECOM_GeneraScriptInsertCAN.sql) | Genera archivo a partir de volcado de datos. |
-| [P_ROLES_PERMISOS.sql](./P_ROLES_PERMISOS.sql) | Obtiene roles y permisos de usuarios de base de datos. |
-| [P_S_ROLES.sql](./P_S_ROLES.sql) | Obtiene roles de base de datos. |
-| [SP_LOG.sql](./SP_LOG.sql) | Plantilla para Stored Procedure con manejo de logs y errores. |
-| [ScriptBuscaCampoEnTodasTablas.sql](./busqueda-objetos-bd/ScriptBuscaCampoEnTodasTablas.sql) | Busca campo especifico en todas las tablas de la base de datos actual. |
-| [ScriptBuscaTextoEnTablas.sql](./ScriptBuscaTextoEnTablas.sql) | Busca un texto especifico en todas las tablas de la base de datos actual. |
-| [ScriptBuscaTextoSP_I.sql](./ScriptBuscaTextoSP_I.sql) | Version 1 para buscar un texto especifico en todos los Stored Proecedures. |
-| [ScriptBuscaTextoSP_II.sql](./ScriptBuscaTextoSP_II.sql) | Version 2 para buscar un texto especifico en todos los Stored Proecedures. |
-| [ScriptBuscaTextoSP_III.sql](./ScriptBuscaTextoSP_III.sql) | Version 3 para buscar un texto especifico en todos los Stored Proecedures. |
-| [ScriptBuscaTextoSP_IV.sql](./ScriptBuscaTextoSP_IV.sql) | Version 4 para buscar un texto especifico en todos los Stored Proecedures. |
-| [ScriptCargaArchivoEnTabla.sql](./ScriptCargaArchivoEnTabla.sql) | A partir de un archivo de texto plano se obtienen los datos para insertar en una tabla. |
-| [ScriptCreaRoles.sql](./ScriptCreaRoles.sql) | Creacion de Roles y asignacion de rol a usuario MSSQL. |
-| [ScriptCursores.sql](./ScriptCursores.sql) | Script para generacion correcta de cursores. |
-| [ScriptDependencias.sql](./ScriptDependencias.sql) | Obtencion de FKs. |
-| [ScriptDependenciasTablas.sql](./ScriptDependenciasTablas.sql) | Obtencion de dependencias de tablas. |
-| [ScriptDevolverMensaje.sql](./ScriptDevolverMensaje.sql) | Tratamiento de mensaje de SP con parametro output. |
-| [ScriptFuncionesUtiles.sql](./ScriptFuncionesUtiles.sql) | Funciones utiles a incorporar en scripts . |
-| [ScriptGeneraTXT.sql](./ScriptGeneraTXT.sql) | Generacion y compresion de archivo de texto plano con herramienta .tar.gz. |
-| [ScriptListaClavesYsusCampos.sql](./ScriptListaClavesYsusCampos.sql) | Lista las claves primarias y sus respectivos campos. |
-| [ScriptListaDTS.sql](./ScriptListaDTS.sql) | Lista de los DTS del servidor. |
-| [ScriptListaDeTablas.sql](./ScriptListaDeTablas.sql) | Lista todas las tablas de la base de datos actual. |
-| [ScriptListaDeTablasYCampos.sql](./ScriptListaDeTablasYCampos.sql) | Lista todas las tablas y todos los campos existentes en la base de datos. |
-| [ScriptListaFKs.sql](./ScriptListaFKs.sql) | Lista de FKs de todas las tablas. |
-| [ScriptListaFuncionesDeUsuario.sql](./ScriptListaFuncionesDeUsuario.sql) | Script que lista las funciones definidas por el usuario. |
-| [ScriptListaIndices.sql](./ScriptListaIndices.sql) | Script que lista todos los indices de todas las tablas. |
-| [ScriptListaRolesUsuarios.sql](./ScriptListaRolesUsuarios.sql) | Lista los roles de todos los usuarios de la base de datos. |
-| [ScriptListaStores.sql](./ScriptListaStores.sql) | Script que lista todas las stored procedures. |
-| [ScriptListaTriggers.sql](./ScriptListaTriggers.sql) | Lista de Triggers creados en la base de datos. |
-| [ScriptManejoError.sql](./ScriptManejoError.sql) | Plantilla de script para el manejo de errores. |
-| [ScriptMultipleUpdOneRow.sql](./ScriptMultipleUpdOneRow.sql) | Plantilla de insert en una sola linea. |
-| [ScriptObtengoMenuesFW.sql](./ScriptObtengoMenuesFW.sql) | Obtencion de menu fwk php. |
-| [ScriptObtieneCantRegistrosArchivo.sql](./ScriptObtieneCantRegistrosArchivo.sql) | Script de ejemplo que permite obtener la cantidad de registros de un archivo. |
-| [ScriptPIVOT.sql](./ScriptPIVOT.sql) | Script ejemplo para pivotear una tabla. |
-| [ScriptPermisosSP.sql](./ScriptPermisosSP.sql) | Script que despliega los permisos (GRANTS) de los objetos que especifico ('P' = Stored). |
-| [ScriptPlantillaEjecucionProduccion.sql](./ScriptPlantillaEjecucionProduccion.sql) | Plantilla para realizar ejecucion en produccion por Ticket urgente. |
-| [ScriptQueNoEjecuteSegunServidor.sql](./ScriptQueNoEjecuteSegunServidor.sql) | Script para evitar ejecucion en ambiente incorrecto. |
-| [ScriptReduceLogTransacciones.sql](./ScriptReduceLogTransacciones.sql) | Script que limpia el log de transacciones de una base de datos. |
-| [ScriptReportingServicesEstadistica.sql](./ScriptReportingServicesEstadistica.sql) | Reporte de estadisticas de Reporting Services. |
-| [ScriptSplitDoble.sql](./ScriptSplitDoble.sql) | Script para utilizar funcion de split. |
-| [ScriptUsoArchivoFormato.sql](./ScriptUsoArchivoFormato.sql) | Plantilla para crear archivo de formato .fmt y .dat. |
+| [ScriptBuscaCampoEnTodasTablas.sql](./busqueda-objetos-bd/ScriptBuscaCampoEnTodasTablas.sql) | Busca campo específico en todas las tablas de la BD. |
+| [ScriptBuscaTextoEnTablas.sql](./busqueda-objetos-bd/ScriptBuscaTextoEnTablas.sql) | Busca un texto específico en todas las tablas. |
+| [ScriptBuscaTextoSP_I.sql](./busqueda-objetos-bd/ScriptBuscaTextoSP_I.sql) | Búsqueda de texto en Stored Procedures (V1). |
+| [ScriptBuscaTextoSP_II.sql](./busqueda-objetos-bd/ScriptBuscaTextoSP_II.sql) | Búsqueda de texto en Stored Procedures (V2). |
+| [ScriptBuscaTextoSP_III.sql](./busqueda-objetos-bd/ScriptBuscaTextoSP_III.sql) | Búsqueda de texto en Stored Procedures (V3). |
+| [ScriptBuscaTextoSP_IV.sql](./busqueda-objetos-bd/ScriptBuscaTextoSP_IV.sql) | Búsqueda de texto en Stored Procedures (V4). |
+| [ScriptDependencias.sql](./busqueda-objetos-bd/ScriptDependencias.sql) | Obtención de Foreign Keys (FKs). |
+| [ScriptDependenciasTablas.sql](./busqueda-objetos-bd/ScriptDependenciasTablas.sql) | Obtención de dependencias jerárquicas de tablas. |
+| [ScriptReduceLogTransacciones.sql](./busqueda-objetos-bd/ScriptReduceLogTransacciones.sql) | Limpieza y reducción del log de transacciones. |
+| [ScriptListaIndices.sql](./busqueda-objetos-bd/ScriptListaIndices.sql) | Lista todos los índices de todas las tablas. |
+| [ScriptListaDTS.sql](./busqueda-objetos-bd/ScriptListaDTS.sql) | Lista de los paquetes DTS del servidor. |
+| [ScriptQueNoEjecuteSegunServidor.sql](./busqueda-objetos-bd/ScriptQueNoEjecuteSegunServidor.sql) | Validación de ambiente para evitar ejecuciones incorrectas. |
+| [ScriptReportingServicesEstadistica.sql](./busqueda-objetos-bd/ScriptReportingServicesEstadistica.sql) | Estadísticas de uso de Reporting Services. |
+
+#### 🛡️ 2. Seguridad, Roles y Permisos
+Ruta: `./seguridad-roles-permisos/`
+
+| Archivo | Función Principal |
+| :--- | :--- |
+| [P_ROLES_PERMISOS.sql](./seguridad-roles-permisos/P_ROLES_PERMISOS.sql) | Obtiene roles y permisos de usuarios. |
+| [P_S_ROLES.sql](./seguridad-roles-permisos/P_S_ROLES.sql) | Obtiene roles definidos en la base de datos. |
+| [ScriptCreaRoles.sql](./seguridad-roles-permisos/ScriptCreaRoles.sql) | Creación de Roles y asignación a usuarios MSSQL. |
+| [ScriptListaRolesUsuarios.sql](./seguridad-roles-permisos/ScriptListaRolesUsuarios.sql) | Lista los roles de todos los usuarios actuales. |
+| [ScriptPermisosSP.sql](./seguridad-roles-permisos/ScriptPermisosSP.sql) | Despliega GRANTS de objetos específicos (Stored Procedures). |
+| [02_GeneradorScript-Framework_Perfiles.sql](./seguridad-roles-permisos/02_GeneradorScript-Framework_Perfiles.sql) | Genera inserts para perfiles de usuarios en Framework PHP. |
+
+#### 🏗️ 3. Desarrollo y Plantillas (Templates)
+Ruta: `./desarrollo-plantillas/`
+
+| Archivo | Función Principal |
+| :--- | :--- |
+| [SP_LOG.sql](./desarrollo-plantillas/SP_LOG.sql) | Plantilla de Stored Procedure con manejo de logs. |
+| [ScriptManejoError.sql](./desarrollo-plantillas/ScriptManejoError.sql) | Plantilla estándar para el manejo de errores (TRY/CATCH). |
+| [ScriptDevolverMensaje.sql](./desarrollo-plantillas/ScriptDevolverMensaje.sql) | Tratamiento de mensajes de SP con parámetros OUTPUT. |
+| [ScriptCursores.sql](./desarrollo-plantillas/ScriptCursores.sql) | Estructura correcta para la generación de cursores. |
+| [ScriptPlantillaEjecucionProduccion.sql](./desarrollo-plantillas/ScriptPlantillaEjecucionProduccion.sql) | Protocolo para ejecución manual de tickets urgentes. |
+| [ScriptFuncionesUtiles.sql](./desarrollo-plantillas/ScriptFuncionesUtiles.sql) | Librería de funciones auxiliares para scripts. |
+
+#### 📊 4. Manipulación de Datos e Integración
+Ruta: `./manipulaciondatos-integracion/`
+
+| Archivo | Función Principal |
+| :--- | :--- |
+| [ScriptCargaArchivoEnTabla.sql](./manipulaciondatos-integracion/ScriptCargaArchivoEnTabla.sql) | Ingesta de datos desde archivos planos a tablas SQL. |
+| [ScriptGeneraTXT.sql](./manipulaciondatos-integracion/ScriptGeneraTXT.sql) | Generación y compresión de archivos de texto (.tar.gz). |
+| [ScriptUsoArchivoFormato.sql](./manipulaciondatos-integracion/ScriptUsoArchivoFormato.sql) | Uso de archivos de formato .fmt y .dat. |
+| [ScriptObtieneCantRegistrosArchivo.sql](./manipulaciondatos-integracion/ScriptObtieneCantRegistrosArchivo.sql) | Validación de cantidad de registros en archivos externos. |
+| [ScriptPIVOT.sql](./manipulaciondatos-integracion/ScriptPIVOT.sql) | Ejemplo de rotación de filas a columnas (PIVOT). |
+| [ScriptMultipleUpdOneRow.sql](./manipulaciondatos-integracion/ScriptMultipleUpdOneRow.sql) | Optimización de inserts en una sola línea. |
+| [2330013_ECOM_GeneraScriptInsertCAN.sql](./manipulaciondatos-integracion/2330013_ECOM_GeneraScriptInsertCAN.sql) | Generación de scripts a partir de volcados de datos. |
+
+#### 📋 5. Diccionario de Datos y Listado
+Ruta: `./diccionariodatos-listado/`
+
+| Archivo | Función Principal |
+| :--- | :--- |
+| [ScriptListaDeTablasYCampos.sql](./diccionariodatos-listado/ScriptListaDeTablasYCampos.sql) | Diccionario completo: tablas y sus campos. |
+| [ScriptListaDeTablas.sql](./diccionariodatos-listado/ScriptListaDeTablas.sql) | Inventario de tablas de la base de datos. |
+| [ScriptListaClavesYsusCampos.sql](./diccionariodatos-listado/ScriptListaClavesYsusCampos.sql) | Inventario de Claves Primarias (PKs) y sus columnas. |
+| [ScriptListaStores.sql](./diccionariodatos-listado/ScriptListaStores.sql) | Listado de todos los Stored Procedures. |
+| [ScriptListaFuncionesDeUsuario.sql](./diccionariodatos-listado/ScriptListaFuncionesDeUsuario.sql) | Listado de funciones definidas por el usuario (UDF). |
+| [ScriptListaTriggers.sql](./diccionariodatos-listado/ScriptListaTriggers.sql) | Inventario de Triggers activos. |
+| [ScriptObtengoMenuesFW.sql](./diccionariodatos-listado/ScriptObtengoMenuesFW.sql) | Consulta de menús en Framework PHP. |
+| [01_GeneradorScript-Framework_Menues.sql](./diccionariodatos-listado/01_GeneradorScript-Framework_Menues.sql) | Generador de inserts para menús y controladores. |
