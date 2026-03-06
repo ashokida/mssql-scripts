@@ -1,9 +1,7 @@
 
 ### 📂 Índice de Scripts del Repositorio
 
-#### 🔍 1. Búsqueda y Auditoría de Objetos
-Ruta: `./busqueda-objetos-bd/`  
-*Incluye herramientas de localización de objetos y tareas de mantenimiento del servidor.*
+#### 🔍 1. Búsqueda y Auditoría de Objetos [(./busqueda-objetos-bd/)](./busqueda-objetos-bd/)
 
 | Archivo | Función Principal |
 | :--- | :--- |
@@ -16,9 +14,7 @@ Ruta: `./busqueda-objetos-bd/`
 | [ScriptDependencias.sql](./busqueda-objetos-bd/ScriptDependencias.sql) | Obtención de Foreign Keys (FKs). |
 | [ScriptDependenciasTablas.sql](./busqueda-objetos-bd/ScriptDependenciasTablas.sql) | Obtención de dependencias jerárquicas de tablas. |
 
-#### 🔍 2. Administracion y Mantenimiento
-Ruta: `./administracion-mantenimiento/`  
-*Incluye herramientas de consulta y mantenimiento del servidor.*
+#### 🔍 2. Administracion y Mantenimiento  [(./administracion-mantenimiento/)](./administracion-mantenimiento/)
 
 | Archivo | Función Principal |
 | :--- | :--- |
@@ -28,8 +24,7 @@ Ruta: `./administracion-mantenimiento/`
 | [ScriptQueNoEjecuteSegunServidor.sql](./administracion-mantenimiento/ScriptQueNoEjecuteSegunServidor.sql) | Validación de ambiente para evitar ejecuciones incorrectas. |
 | [ScriptReportingServicesEstadistica.sql](./administracion-mantenimiento/ScriptReportingServicesEstadistica.sql) | Estadísticas de uso de Reporting Services. |
 
-#### 🛡️ 3. Seguridad, Roles y Permisos
-Ruta: `./seguridad-roles-permisos/`
+#### 🛡️ 3. Seguridad, Roles y Permisos [(./seguridad-roles-permisos/)](./seguridad-roles-permisos/)
 
 | Archivo | Función Principal |
 | :--- | :--- |
@@ -40,8 +35,7 @@ Ruta: `./seguridad-roles-permisos/`
 | [ScriptPermisosSP.sql](./seguridad-roles-permisos/ScriptPermisosSP.sql) | Despliega GRANTS de objetos específicos (Stored Procedures). |
 | [02_GeneradorScript-Framework_Perfiles.sql](./seguridad-roles-permisos/02_GeneradorScript-Framework_Perfiles.sql) | Genera inserts para perfiles de usuarios en Framework PHP. |
 
-#### 🏗️ 4. Desarrollo y Plantillas (Templates)
-Ruta: `./desarrollo-plantillas/`
+#### 🏗️ 4. Desarrollo y Plantillas (Templates) [(./desarrollo-plantillas/)](./desarrollo-plantillas/)
 
 | Archivo | Función Principal |
 | :--- | :--- |
@@ -53,8 +47,7 @@ Ruta: `./desarrollo-plantillas/`
 | [ScriptFuncionesUtiles.sql](./desarrollo-plantillas/ScriptFuncionesUtiles.sql) | Librería de funciones auxiliares para scripts. |
 | [ListaMailsEnviados.sql](./desarrollo-plantillas/ListaMailsEnviados.sql) | Lista mails que fueron enviados desde servidor BD. |
 
-#### 📊 5. Manipulación de Datos e Integración
-Ruta: `./manipulaciondatos-integracion/`
+#### 📊 5. Manipulación de Datos e Integración [(./manipulaciondatos-integracion/)](./manipulaciondatos-integracion/)
 
 | Archivo | Función Principal |
 | :--- | :--- |
