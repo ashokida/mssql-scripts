@@ -1,12 +1,7 @@
-# 🛠️ SQL Server Management Scripts
-
-Colección de scripts Transact-SQL personalizados para la administración, auditoría y optimización de bases de datos.
-
----
 
 ### 📂 Índice de Scripts del Repositorio
 
-#### 🔍 1. Búsqueda, Auditoría y Administración (DBA)
+#### 🔍 1. Búsqueda y Auditoría de Objetos
 Ruta: `./busqueda-objetos-bd/`  
 *Incluye herramientas de localización de objetos y tareas de mantenimiento del servidor.*
 
@@ -20,11 +15,19 @@ Ruta: `./busqueda-objetos-bd/`
 | [ScriptBuscaTextoSP_IV.sql](./busqueda-objetos-bd/ScriptBuscaTextoSP_IV.sql) | Búsqueda de texto en Stored Procedures (V4). |
 | [ScriptDependencias.sql](./busqueda-objetos-bd/ScriptDependencias.sql) | Obtención de Foreign Keys (FKs). |
 | [ScriptDependenciasTablas.sql](./busqueda-objetos-bd/ScriptDependenciasTablas.sql) | Obtención de dependencias jerárquicas de tablas. |
-| [ScriptReduceLogTransacciones.sql](./busqueda-objetos-bd/ScriptReduceLogTransacciones.sql) | Limpieza y reducción del log de transacciones. |
-| [ScriptListaIndices.sql](./busqueda-objetos-bd/ScriptListaIndices.sql) | Lista todos los índices de todas las tablas. |
-| [ScriptListaDTS.sql](./busqueda-objetos-bd/ScriptListaDTS.sql) | Lista de los paquetes DTS del servidor. |
-| [ScriptQueNoEjecuteSegunServidor.sql](./busqueda-objetos-bd/ScriptQueNoEjecuteSegunServidor.sql) | Validación de ambiente para evitar ejecuciones incorrectas. |
-| [ScriptReportingServicesEstadistica.sql](./busqueda-objetos-bd/ScriptReportingServicesEstadistica.sql) | Estadísticas de uso de Reporting Services. |
+
+
+#### 🔍 1. Administracion y Mantenimiento
+Ruta: `./administracion-mantenimiento/`  
+*Incluye herramientas de consulta y mantenimiento del servidor.*
+
+| Archivo | Función Principal |
+| :--- | :--- |
+| [ScriptReduceLogTransacciones.sql](./administracion-mantenimiento/ScriptReduceLogTransacciones.sql) | Limpieza y reducción del log de transacciones. |
+| [ScriptListaIndices.sql](./administracion-mantenimiento/ScriptListaIndices.sql) | Lista todos los índices de todas las tablas. |
+| [ScriptListaDTS.sql](./administracion-mantenimiento/ScriptListaDTS.sql) | Lista de los paquetes DTS del servidor. |
+| [ScriptQueNoEjecuteSegunServidor.sql](./administracion-mantenimiento/ScriptQueNoEjecuteSegunServidor.sql) | Validación de ambiente para evitar ejecuciones incorrectas. |
+| [ScriptReportingServicesEstadistica.sql](./administracion-mantenimiento/ScriptReportingServicesEstadistica.sql) | Estadísticas de uso de Reporting Services. |
 
 #### 🛡️ 2. Seguridad, Roles y Permisos
 Ruta: `./seguridad-roles-permisos/`
