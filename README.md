@@ -68,8 +68,7 @@ Ruta: `./manipulaciondatos-integracion/`
 | [01_GeneradorScript-Framework_Menues.sql](./manipulaciondatos-integracion/01_GeneradorScript-Framework_Menues.sql) | Genera script de inserts para tablas utilizadas por web PHP (Seccion/Menu/Controlador) . |
 | [ScriptSplitDoble.sql](./manipulaciondatos-integracion/ScriptSplitDoble.sql) | Script para utilizar funcion de split. |
 
-#### 📋 6. Diccionario de Datos y Listado
-Ruta: `./diccionariodatos-listado/`
+#### 📋 6. Diccionario de Datos y Listado (./diccionariodatos-listado/)
 
 | Archivo | Función Principal |
 | :--- | :--- |
@@ -80,4 +79,4 @@ Ruta: `./diccionariodatos-listado/`
 | [ScriptListaFuncionesDeUsuario.sql](./diccionariodatos-listado/ScriptListaFuncionesDeUsuario.sql) | Listado de funciones definidas por el usuario (UDF). |
 | [ScriptListaTriggers.sql](./diccionariodatos-listado/ScriptListaTriggers.sql) | Inventario de Triggers activos. |
 | [ScriptObtengoMenuesFW.sql](./diccionariodatos-listado/ScriptObtengoMenuesFW.sql) | Consulta de menús en Framework PHP. |
-| [01_GeneradorScript-Framework_Menues.sql](./diccionariodatos-listado/01_GeneradorScript-Framework_Menues.sql) | Generador de inserts para menús y controladores. |
+| [ScriptListaFKs.sql](./diccionariodatos-listado/ScriptListaFKs.sql) | Lista de FKs de todas las tablas. |
