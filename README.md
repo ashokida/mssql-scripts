@@ -52,6 +52,7 @@ Ruta: `./desarrollo-plantillas/`
 | [ScriptCursores.sql](./desarrollo-plantillas/ScriptCursores.sql) | Estructura correcta para la generación de cursores. |
 | [ScriptPlantillaEjecucionProduccion.sql](./desarrollo-plantillas/ScriptPlantillaEjecucionProduccion.sql) | Protocolo para ejecución manual de tickets urgentes. |
 | [ScriptFuncionesUtiles.sql](./desarrollo-plantillas/ScriptFuncionesUtiles.sql) | Librería de funciones auxiliares para scripts. |
+| [ListaMailsEnviados.sql](./desarrollo-plantillas/ListaMailsEnviados.sql) | Lista mails que fueron enviados desde servidor BD. |
 
 #### 📊 4. Manipulación de Datos e Integración
 Ruta: `./manipulaciondatos-integracion/`
