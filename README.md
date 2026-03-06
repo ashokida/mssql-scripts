@@ -17,7 +17,7 @@ Ruta: `./busqueda-objetos-bd/`
 | [ScriptDependenciasTablas.sql](./busqueda-objetos-bd/ScriptDependenciasTablas.sql) | Obtención de dependencias jerárquicas de tablas. |
 
 
-#### 🔍 1. Administracion y Mantenimiento
+#### 🔍 2. Administracion y Mantenimiento
 Ruta: `./administracion-mantenimiento/`  
 *Incluye herramientas de consulta y mantenimiento del servidor.*
 
@@ -29,7 +29,7 @@ Ruta: `./administracion-mantenimiento/`
 | [ScriptQueNoEjecuteSegunServidor.sql](./administracion-mantenimiento/ScriptQueNoEjecuteSegunServidor.sql) | Validación de ambiente para evitar ejecuciones incorrectas. |
 | [ScriptReportingServicesEstadistica.sql](./administracion-mantenimiento/ScriptReportingServicesEstadistica.sql) | Estadísticas de uso de Reporting Services. |
 
-#### 🛡️ 2. Seguridad, Roles y Permisos
+#### 🛡️ 3. Seguridad, Roles y Permisos
 Ruta: `./seguridad-roles-permisos/`
 
 | Archivo | Función Principal |
@@ -41,7 +41,7 @@ Ruta: `./seguridad-roles-permisos/`
 | [ScriptPermisosSP.sql](./seguridad-roles-permisos/ScriptPermisosSP.sql) | Despliega GRANTS de objetos específicos (Stored Procedures). |
 | [02_GeneradorScript-Framework_Perfiles.sql](./seguridad-roles-permisos/02_GeneradorScript-Framework_Perfiles.sql) | Genera inserts para perfiles de usuarios en Framework PHP. |
 
-#### 🏗️ 3. Desarrollo y Plantillas (Templates)
+#### 🏗️ 4. Desarrollo y Plantillas (Templates)
 Ruta: `./desarrollo-plantillas/`
 
 | Archivo | Función Principal |
@@ -54,7 +54,7 @@ Ruta: `./desarrollo-plantillas/`
 | [ScriptFuncionesUtiles.sql](./desarrollo-plantillas/ScriptFuncionesUtiles.sql) | Librería de funciones auxiliares para scripts. |
 | [ListaMailsEnviados.sql](./desarrollo-plantillas/ListaMailsEnviados.sql) | Lista mails que fueron enviados desde servidor BD. |
 
-#### 📊 4. Manipulación de Datos e Integración
+#### 📊 5. Manipulación de Datos e Integración
 Ruta: `./manipulaciondatos-integracion/`
 
 | Archivo | Función Principal |
@@ -67,7 +67,7 @@ Ruta: `./manipulaciondatos-integracion/`
 | [ScriptMultipleUpdOneRow.sql](./manipulaciondatos-integracion/ScriptMultipleUpdOneRow.sql) | Optimización de inserts en una sola línea. |
 | [2330013_ECOM_GeneraScriptInsertCAN.sql](./manipulaciondatos-integracion/2330013_ECOM_GeneraScriptInsertCAN.sql) | Generación de scripts a partir de volcados de datos. |
 
-#### 📋 5. Diccionario de Datos y Listado
+#### 📋 6. Diccionario de Datos y Listado
 Ruta: `./diccionariodatos-listado/`
 
 | Archivo | Función Principal |
