@@ -16,7 +16,6 @@ Ruta: `./busqueda-objetos-bd/`
 | [ScriptDependencias.sql](./busqueda-objetos-bd/ScriptDependencias.sql) | Obtención de Foreign Keys (FKs). |
 | [ScriptDependenciasTablas.sql](./busqueda-objetos-bd/ScriptDependenciasTablas.sql) | Obtención de dependencias jerárquicas de tablas. |
 
-
 #### 🔍 2. Administracion y Mantenimiento
 Ruta: `./administracion-mantenimiento/`  
 *Incluye herramientas de consulta y mantenimiento del servidor.*
@@ -66,6 +65,8 @@ Ruta: `./manipulaciondatos-integracion/`
 | [ScriptPIVOT.sql](./manipulaciondatos-integracion/ScriptPIVOT.sql) | Ejemplo de rotación de filas a columnas (PIVOT). |
 | [ScriptMultipleUpdOneRow.sql](./manipulaciondatos-integracion/ScriptMultipleUpdOneRow.sql) | Optimización de inserts en una sola línea. |
 | [2330013_ECOM_GeneraScriptInsertCAN.sql](./manipulaciondatos-integracion/2330013_ECOM_GeneraScriptInsertCAN.sql) | Generación de scripts a partir de volcados de datos. |
+| [01_GeneradorScript-Framework_Menues.sql](./manipulaciondatos-integracion/01_GeneradorScript-Framework_Menues.sql) | Genera script de inserts para tablas utilizadas por web PHP (Seccion/Menu/Controlador) . |
+| [ScriptSplitDoble.sql](./manipulaciondatos-integracion/ScriptSplitDoble.sql) | Script para utilizar funcion de split. |
 
 #### 📋 6. Diccionario de Datos y Listado
 Ruta: `./diccionariodatos-listado/`
